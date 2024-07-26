@@ -3,7 +3,7 @@ import MessageList from './components/MessageList';
 import MessageForm from './components/MessageForm';
 import './styles/App.css';
 
-const App = () => {
+const ClientApp = () => {
     const [messages, setMessages] = useState([]);
 
     const addMessage = (message) => {
@@ -19,4 +19,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default ClientApp;
