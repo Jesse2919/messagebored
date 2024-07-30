@@ -1,10 +1,22 @@
 const express = require('express');
 const { graphqlHTTP } = require('express-graphql');
+const { ApolloServer } = require('apollo-server');
 const mongoose = require('mongoose');
 const cors = require('cors');
 const schema = require('./schema/schema');
 const isAuth = require('./middlewares/is-auth');
 require('dotenv').config();
+
+const MongoDB = "mongodb+srv://<username>:<password>@apolloserver.vajdauk.mongodb.net/?retryWrites=true&w=majority&appName=ApolloServer"
+//apollo
+
+const typeDefs = require('./schema/schema');
+const resolvers = require('./resolvers');
+
+const server = ApolloServer({
+  typeDefs,
+  resolvers
+});
 
 const app = express();
 
