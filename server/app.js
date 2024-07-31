@@ -7,7 +7,7 @@ const schema = require('./schema/schema');
 const isAuth = require('./middlewares/is-auth');
 require('dotenv').config();
 
-const MongoDB = "mongodb+srv://<username>:<password>@apolloserver.vajdauk.mongodb.net/?retryWrites=true&w=majority&appName=ApolloServer"
+const mongoose = "mongodb+srv://<username>:<password>@apolloserver.vajdauk.mongodb.net/?retryWrites=true&w=majority&appName=ApolloServer"
 //apollo
 
 const typeDefs = require('./schema/schema');
