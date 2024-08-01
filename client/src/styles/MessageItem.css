@@ -31,3 +31,25 @@
 .message-item button:hover {
     background-color: #c9302c;
 }
+
+.armadillo{
+ 
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #cd89e9;
+    border: 1px solid #cc7acb;
+    border-radius: 29px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+   
+.armadillo p{
+    
+    background-color: white;
+    border-radius: 29px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #cc7acb;
+    padding: 20px;
+    max-width: 800px;
+}
