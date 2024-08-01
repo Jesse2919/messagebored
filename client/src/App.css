@@ -1,0 +1,80 @@
+body {
+ font-family: Arial, sans-serif;
+ padding: 20px;
+}
+
+.app {
+ max-width: 600px;
+ margin: 0 auto;
+}
+
+.message-form {
+ margin-bottom: 20px;
+}
+
+.message-form input {
+ margin-right: 10px;
+ padding: 5px;
+}
+
+.message-form button {
+ padding: 5px 10px;
+ cursor: pointer;
+}
+
+.message-list {
+ border-top: 1px solid #ddd;
+}
+
+.message-item {
+ border-bottom: 1px solid #ddd;
+ padding: 10px 0;
+}
+
+.message-item h4 {
+ margin: 0;
+}
+
+.message-item p {
+ margin: 5px 0 0 0;
+}
+body {
+ font-family: Arial, sans-serif;
+ padding: 20px;
+}
+
+.app {
+ max-width: 600px;
+ margin: 0 auto;
+}
+
+.message-form {
+ margin-bottom: 20px;
+}
+
+.message-form input {
+ margin-right: 10px;
+ padding: 5px;
+}
+
+.message-form button {
+ padding: 5px 10px;
+ cursor: pointer;
+}
+
+.message-list {
+ border-top: 1px solid #ddd;
+}
+
+.message-item {
+ border-bottom: 1px solid #ddd;
+ padding: 10px 0;
+}
+
+.message-item h4 {
+ margin: 0;
+}
+
+.message-item p {
+ margin: 5px 0 0 0;
+}

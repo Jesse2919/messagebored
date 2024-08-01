@@ -1,17 +1,17 @@
 {
-  "name": "messagebored",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "cd client && npm start",
-    "dev": "concurrently \"cd server && npm run start\" \"cd client && npm run dev\"",
-    "install": "cd server && npm i && cd ../client && npm i"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "concurrently": "^8.2.2"
-  }
+ "name": "messagebored",
+ "version": "1.0.0",
+ "main": "index.jsx",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "client": "cd client && npm start",
+  "dev": "concurrently \"cd server && npm run start\" \"cd client && npm run dev\"",
+  "install": "cd server && npm i && cd ../client && npm i"
+ },
+ "author": "",
+ "license": "ISC",
+ "description": "",
+ "dependencies": {
+  "concurrently": "^8.2.2"
+ }
 }
