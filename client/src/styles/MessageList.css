@@ -1,0 +1,40 @@
+.message-list {
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.message-list-container {
+    width: 100%;
+    max-width: 600px;
+  }
+  
+  .message-list {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .message-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .message-item:last-child {
+    border-bottom: none;
+  }
+  
+  .remove-button {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
