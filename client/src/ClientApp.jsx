@@ -1,15 +1,46 @@
+import React, { useState, useEffect } from "react";
+import MessageList from "./components/MessageList";
+import MessageForm from "./components/MessageForm";
+import { saveMessage, getMessages, deleteMessage } from "./messageStorage";
+import "./styles/App.css";
 // import React, { useState } from 'react';
 // import MessageList from './components/MessageList';
 // import MessageForm from './components/MessageForm';
 // import './styles/App.css';
 
-// const ClientApp = () => {
-//     const [messages, setMessages] = useState([]);
+const ClientApp = () => {
+ const [messages, setMessages] = useState([]);
 
-//     const addMessage = (message) => {
-//         setMessages([...messages, { ...message, id: messages.length }]);
-//     };
+ useEffect(() => {
+  const storedMessages = getMessages();
+  setMessages(storedMessages);
+ }, []);
+ // const ClientApp = () => {
+ //     const [messages, setMessages] = useState([]);
 
+ const addMessage = (message) => {
+  const newMessage = { ...message, id: Date.now() };
+  const newMessages = [...messages, newMessage];
+  setMessages(newMessages);
+  saveMessage(newMessage);
+ };
+
+ const removeMessage = (id) => {
+  const newMessages = messages.filter((message) => message.id !== id);
+  setMessages(newMessages);
+  deleteMessage(id);
+ };
+
+ return (
+  <div>
+   <div className="container">
+    <h1>Welcome to the Message Board</h1>
+   </div>
+   <MessageForm addMessage={addMessage} />
+   <MessageList messages={messages} removeMessage={removeMessage} />
+  </div>
+ );
+};
 //     return (
 //         <div className="app">
 //             <h1>Message Board</h1>

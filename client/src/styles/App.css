@@ -1,0 +1,78 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7456a5;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #cd89e9;
+  border: 1px solid #cc7acb;
+  border-radius: 29px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+  font-size: 2.5em;
+  color: #333;
+  text-align: center;
+  background-color: #e6e8e9; /* Reddit-like red background */
+  border: 15px solid #cc7acb;
+  color: #333; /* White text */
+  padding: 20px;
+  border-radius: 29px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+ h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  color: #333;
+  border-radius: 29px;
+}
+
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"], textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+  box-sizing: border-box;
+}
+
+button {
+  display: inline-block;
+  background-color:  #7456a5;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005d8c;
+}
+
+.note {
+  background-color: #fffbcc;
+  border: 1px solid #ffeb3b;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.form-header {
+  background-color: #e2e6e4;
+  color: white;
+  padding: 10px;
+  border-radius: 4px 4px 0 0;
+}
