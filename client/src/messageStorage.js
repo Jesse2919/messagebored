@@ -16,3 +16,4 @@ export const deleteMessage = (id) => {
     const filteredMessages = messages.filter(message => message.id !== id);
     localStorage.setItem(MESSAGES_KEY, JSON.stringify(filteredMessages));
 };
+

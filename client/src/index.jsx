@@ -11,3 +11,4 @@ root.render(
         <ClientApp />
     </React.StrictMode>
 );
+

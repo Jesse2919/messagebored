@@ -1,5 +1,6 @@
 const { GraphQLObjectType, GraphQLSchema, GraphQLString, GraphQLID, GraphQLList } = require('graphql');
 const { GraphQLDateTime } = require('graphql-iso-date');
+// const { GraphQLObjectType } = require('apollo-server');
 const User = require('../models/user');
 const Message = require('../models/message');
 const authResolver = require('../resolvers/auth');
