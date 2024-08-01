@@ -39,7 +39,11 @@ const Login = () => {
     </div>
    </section>
    <section className="hidden w-[60%] xl:block">
-    <img src="/bg.png" alt="image dashboard" className="h-full w-full"></img>
+    <img
+     src="/layout.png"
+     alt="image dashboard"
+     className="h-full w-full"
+    ></img>
    </section>
   </main>
  );
