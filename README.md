@@ -23,8 +23,8 @@ To access the project content:
 ```
 ## Usage
 
-![MessageBored Home](assets/MessageBored.png)
-
+![MessageBored Home](assets/Home.png)
+![MessageBored Home](assets/login.png)
 
 ## Contributors
 [Jesse Corona](https://github.com/Jesse2919)
